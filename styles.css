@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: cadetblue;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+main {
+  flex: 1;
+  display: flex;
+}
+
+.Add-Books {
+  flex: 0.5;
+  border-right: 2px solid black;
+}
+
+.add-book-form {
+  display: grid;
+	align-items: center;
+	gap: 15px;
+  padding: 1rem;
+}
+
+.add-book-form h3 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.input {
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.add-book-btn {
+  padding: 10px;
+  font-size: 24px;
+}
+
+.Books {
+  flex: 2;
+  display: grid;
+  padding: 1rem;
+}
+
+footer {
+  background: #f0f0f0;
+  border-top: 2px solid black;
+  padding: 1rem;
+  text-align: center;
+}
